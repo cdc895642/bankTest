@@ -1,0 +1,34 @@
+AirBank banking system
+----------------------
+Oracle DB has not been as good as expected for core banking. We need to create new banking system in Java!
+
+Your good colleague has written (before his leave for vacation) an interface and unit tests, so it will be easy for you to continue.
+Implement new functionality to satisfy AirBankTest unit test.
+
+There are given accounts and transactions between them (BankDataFactory). Bank system is set up by call setAccounts and setTransactions.
+Set of accounts in the system is final and won't change during runtime. Transaction count can increase.
+
+1) Implement getBalance() in AirBank class
+     - finds out actual balance for given account.
+
+2) Implement processTransaction() in AirBank class
+     - process new transaction during runtime.
+
+2) Implement getSumAmounts() in AirBank class
+     - finds out total amount of all transactions in the system.
+
+3) Implement getAccount(String) in AirBank class
+     - Finds account object.
+
+4) Write unit tests for getAccount.
+
+5) [BONUS] Create new method getTransactions(String name) in IBank and implement it.
+     - Returns all transactions for given account name (account is either source or target account).
+
+- You can find more details in IBank interface.
+- Do your best in all areas of expertise - code, object orientation, tests, documentation, etc.
+- Feel free to modify all files including interfaces (except existing unit tests and test data).
+- You can create as many new files (classes, interfaces, ...) as you want.
+
+
+Good luck. Release to production is in 60 minutes.
